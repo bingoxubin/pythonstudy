@@ -2,3 +2,4 @@
 """ 注释 """
 
 print("hello world")
+print("test")
