@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31e9ddd0-66c6-44ff-82aa-47bd27322b32" name="Default Changelist" comment="1111">
+    <list default="true" id="5b131e4a-6fad-4626-a88f-a5e9f258f9d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test01/mysql/ConnMysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test01/mysql/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01/pyspark/metastore_db/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test01/pyspark/metastore_db/service.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,51 +23,30 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
         <entry key="F:/IDEAWorkspace/halo-master" value="PREVIEW" />
+        <entry key="F:/SourceCode/kafka" value="PREVIEW" />
+        <entry key="F:/SourceCode/kafka/kafka-0.10.1.0-src" value="PREVIEW" />
+        <entry key="F:/SourceCode/kafka/kafka-0.10.1.0-src-annotation" value="PREVIEW" />
+        <entry key="F:/SourceCode/kafka/kafka-2.4.1-src" value="PREVIEW" />
       </map>
     </option>
   </component>
-  <component name="ProjectId" id="1USgTlUSQp8Cv0J3vHJaciQv2ie" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="2OmK6a8GhGSxm8JUbNONR3V79oq" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\PyCharmWorkspace\PythonStudy\test01\study" />
-      <recent name="F:\PyCharmWorkspace\PythonStudy\test01" />
-      <recent name="F:\PyCharmWorkspace\PythonStudy\com.bingoabin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\PyCharmWorkspace\PythonStudy\test01" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test01">
+  <component name="RunManager" selected="Python.WordCountTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <method v="2">
@@ -84,8 +73,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConnMysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/mysql/ConnMysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TFIDFTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonStudy" />
+      <module name="pythonbasic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -106,64 +117,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonStudy" />
+    <configuration name="WordCountTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonbasic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/pyspark" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/study/Test01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test02/study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test02/study/Test01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/study/Test02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/pyspark/WordCountTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +140,7 @@
       <method v="2" />
     </configuration>
     <configuration name="day01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonStudy" />
+      <module name="pythonbasic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -194,11 +161,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="matplotlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/matplotlib/matplotlib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Test01" />
-        <item itemvalue="Python.Test02" />
-        <item itemvalue="Python.Test01 (1)" />
+        <item itemvalue="Python.WordCountTest" />
+        <item itemvalue="Python.matplotlib" />
+        <item itemvalue="Python.ConnMysql" />
         <item itemvalue="Python.day01" />
         <item itemvalue="Python.TFIDFTest" />
       </list>
@@ -209,105 +198,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="31e9ddd0-66c6-44ff-82aa-47bd27322b32" name="Default Changelist" comment="" />
-      <created>1575355420649</created>
+      <changelist id="5b131e4a-6fad-4626-a88f-a5e9f258f9d8" name="Default Changelist" comment="" />
+      <created>1682160142714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575355420649</updated>
-      <workItem from="1575355422605" duration="2707000" />
-      <workItem from="1575445599018" duration="309000" />
-      <workItem from="1575446448625" duration="26000" />
-      <workItem from="1575514403454" duration="3000" />
-      <workItem from="1575517366851" duration="609000" />
-      <workItem from="1575601507935" duration="36000" />
-      <workItem from="1579174323559" duration="73000" />
-      <workItem from="1579225121312" duration="893000" />
-      <workItem from="1594717901508" duration="51000" />
-      <workItem from="1594717977683" duration="1385000" />
-      <workItem from="1594797273825" duration="7162000" />
-      <workItem from="1594869883768" duration="9014000" />
-      <workItem from="1594912278172" duration="1639000" />
-      <workItem from="1594914007404" duration="10474000" />
-      <workItem from="1594950209507" duration="15801000" />
-      <workItem from="1595127129680" duration="14215000" />
-      <workItem from="1595199037251" duration="14984000" />
-      <workItem from="1595256423192" duration="8878000" />
-      <workItem from="1595334722415" duration="7067000" />
-      <workItem from="1595379931161" duration="6832000" />
-      <workItem from="1596010457135" duration="1024000" />
-      <workItem from="1596101009176" duration="617000" />
-      <workItem from="1600242652912" duration="4647000" />
-      <workItem from="1600331237164" duration="1352000" />
-      <workItem from="1600430005830" duration="7987000" />
-      <workItem from="1600612256865" duration="4913000" />
-      <workItem from="1600624018655" duration="409000" />
-      <workItem from="1665804745476" duration="159000" />
-      <workItem from="1665804921107" duration="1525000" />
-      <workItem from="1666073193110" duration="160000" />
-      <workItem from="1676967813778" duration="856000" />
-      <workItem from="1677035711564" duration="2465000" />
-      <workItem from="1677047323368" duration="3282000" />
-      <workItem from="1677052465857" duration="2648000" />
-      <workItem from="1677055846955" duration="734000" />
-      <workItem from="1677056730897" duration="301000" />
+      <updated>1682160142714</updated>
+      <workItem from="1682160144013" duration="271000" />
+      <workItem from="1686808697476" duration="794000" />
+      <workItem from="1689085954816" duration="1542000" />
     </task>
-    <task id="LOCAL-00001" summary="1111">
-      <created>1677052479946</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1677052479946</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1111">
-      <created>1677052671630</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677052671630</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1111">
-      <created>1677053961571</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677053961571</updated>
-    </task>
-    <task id="LOCAL-00004" summary="1111">
-      <created>1677055049961</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1677055049961</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1111">
-      <created>1677055157290</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1677055157290</updated>
-    </task>
-    <task id="LOCAL-00006" summary="1111">
-      <created>1677055406540</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1677055406540</updated>
-    </task>
-    <task id="LOCAL-00007" summary="1111">
-      <created>1677055754941</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1677055754941</updated>
-    </task>
-    <task id="LOCAL-00008" summary="1111">
-      <created>1677055958010</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1677055958010</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,46 +225,11 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1111" />
-    <option name="LAST_COMMIT_MESSAGE" value="1111" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="180" key="SettingsEditor" timestamp="1575446467889">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="414" y="180" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1575446467888" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test01/study/Test09.py</url>
-          <line>262</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonStudy$Test.coverage" NAME="Test Coverage Results" MODIFIED="1594718730907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonStudy$day01.coverage" NAME="day01 Coverage Results" MODIFIED="1665805027535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/kkbwork" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test01.coverage" NAME="Test01 Coverage Results" MODIFIED="1677047494728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test02/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test07.coverage" NAME="Test07 Coverage Results" MODIFIED="1595210286126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1600447479063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/matplotlib" />
-    <SUITE FILE_PATH="coverage/PythonStudy$WordCountTest.coverage" NAME="WordCountTest Coverage Results" MODIFIED="1600615476799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test01__1_.coverage" NAME="Test01 (1) Coverage Results" MODIFIED="1677035858430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test05.coverage" NAME="Test05 Coverage Results" MODIFIED="1595182703567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test10.coverage" NAME="Test10 Coverage Results" MODIFIED="1595405204424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test04.coverage" NAME="Test04 Coverage Results" MODIFIED="1595169158330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test08.coverage" NAME="Test08 Coverage Results" MODIFIED="1595261539301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$WorkFile.coverage" NAME="WorkFile Coverage Results" MODIFIED="1594915467663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test03.coverage" NAME="Test03 Coverage Results" MODIFIED="1594966597132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test__2_.coverage" NAME="Test (2) Coverage Results" MODIFIED="1594912637081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test09.coverage" NAME="Test09 Coverage Results" MODIFIED="1595402956593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test02.coverage" NAME="Test02 Coverage Results" MODIFIED="1677046733927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1594798631117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.bingoabin" />
-    <SUITE FILE_PATH="coverage/PythonStudy$TFIDFTest.coverage" NAME="TFIDFTest Coverage Results" MODIFIED="1600624024145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
-    <SUITE FILE_PATH="coverage/PythonStudy$Test06.coverage" NAME="Test06 Coverage Results" MODIFIED="1595214922631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01" />
+    <SUITE FILE_PATH="coverage/pythonbasic$ConnMysql.coverage" NAME="ConnMysql Coverage Results" MODIFIED="1689087493544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/mysql" />
+    <SUITE FILE_PATH="coverage/pythonbasic$WordCountTest.coverage" NAME="WordCountTest Coverage Results" MODIFIED="1689087698868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
+    <SUITE FILE_PATH="coverage/pythonbasic$TFIDFTest.coverage" NAME="TFIDFTest Coverage Results" MODIFIED="1689086917563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
+    <SUITE FILE_PATH="coverage/pythonbasic$day01.coverage" NAME="day01 Coverage Results" MODIFIED="1689087160501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/kkbwork" />
+    <SUITE FILE_PATH="coverage/pythonbasic$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1689087615254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/matplotlib" />
   </component>
 </project>

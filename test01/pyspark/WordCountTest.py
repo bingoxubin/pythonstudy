@@ -1,5 +1,6 @@
 from pyspark.sql import SparkSession
-
+import pyspark
+print(pyspark.__version__)
 spark = SparkSession.builder.appName("wordcount").getOrCreate()
 sc = spark.sparkContext
 
