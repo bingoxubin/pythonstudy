@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b131e4a-6fad-4626-a88f-a5e9f258f9d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test01/mysql/ConnMysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test01/mysql/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonStudy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test01/telegraf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test01/telegraf/add_bingo_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test01/telegraf/dir_num_input_exec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test01/telegraf/dir_num_input_execd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test01/pyspark/metastore_db/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test01/pyspark/metastore_db/service.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +16,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2OmK6a8GhGSxm8JUbNONR3V79oq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -60,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.WordCountTest">
+  <component name="RunManager" selected="Python.add_bingo_processor">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <method v="2">
@@ -72,28 +76,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="ConnMysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonbasic" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/mysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/mysql/ConnMysql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="TFIDFTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonbasic" />
@@ -139,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="add_bingo_processor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonbasic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,12 +129,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/kkbwork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/telegraf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/kkbwork/day01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/telegraf/add_bingo_processor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="matplotlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dir_num_input_exec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonbasic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,12 +151,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/telegraf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/matplotlib/matplotlib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/telegraf/dir_num_input_exec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dir_num_input_execd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test01/telegraf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01/telegraf/dir_num_input_execd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.WordCountTest" />
-        <item itemvalue="Python.matplotlib" />
-        <item itemvalue="Python.ConnMysql" />
-        <item itemvalue="Python.day01" />
+        <item itemvalue="Python.add_bingo_processor" />
+        <item itemvalue="Python.dir_num_input_execd" />
+        <item itemvalue="Python.dir_num_input_exec" />
         <item itemvalue="Python.TFIDFTest" />
+        <item itemvalue="Python.WordCountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +209,8 @@
       <updated>1682160142714</updated>
       <workItem from="1682160144013" duration="271000" />
       <workItem from="1686808697476" duration="794000" />
-      <workItem from="1689085954816" duration="1542000" />
+      <workItem from="1689085954816" duration="3557000" />
+      <workItem from="1689135499818" duration="2780000" />
     </task>
     <servers />
   </component>
@@ -227,9 +232,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonbasic$ConnMysql.coverage" NAME="ConnMysql Coverage Results" MODIFIED="1689087493544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/mysql" />
-    <SUITE FILE_PATH="coverage/pythonbasic$WordCountTest.coverage" NAME="WordCountTest Coverage Results" MODIFIED="1689087698868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
-    <SUITE FILE_PATH="coverage/pythonbasic$TFIDFTest.coverage" NAME="TFIDFTest Coverage Results" MODIFIED="1689086917563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
+    <SUITE FILE_PATH="coverage/pythonbasic$WordCountTest.coverage" NAME="WordCountTest Coverage Results" MODIFIED="1689088034855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
+    <SUITE FILE_PATH="coverage/pythonbasic$add_bingo_processor.coverage" NAME="add_bingo_processor Coverage Results" MODIFIED="1689141528822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/telegraf" />
+    <SUITE FILE_PATH="coverage/pythonbasic$TFIDFTest.coverage" NAME="TFIDFTest Coverage Results" MODIFIED="1689088048510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/pyspark" />
     <SUITE FILE_PATH="coverage/pythonbasic$day01.coverage" NAME="day01 Coverage Results" MODIFIED="1689087160501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/kkbwork" />
     <SUITE FILE_PATH="coverage/pythonbasic$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1689087615254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/matplotlib" />
+    <SUITE FILE_PATH="coverage/pythonbasic$dir_num_input_exec.coverage" NAME="dir_num_input_exec Coverage Results" MODIFIED="1689088494965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/telegraf" />
+    <SUITE FILE_PATH="coverage/pythonbasic$dir_num_input_execd.coverage" NAME="dir_num_input_execd Coverage Results" MODIFIED="1689140563026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test01/telegraf" />
   </component>
 </project>
